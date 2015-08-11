@@ -1,0 +1,200 @@
+html {
+    color: #fbfbfb;
+}
+
+body {
+    font-size: 18px;
+}
+
+a, a:hover {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/*navbar*/
+
+.fire-navbar {
+    height: 100px;
+    background: #343641;
+}
+.fire-nav-container {
+    margin: 20px 0px;
+}
+.fire-nav-container .uk-navbar-nav {
+    margin-top: 10px;
+}
+.fire-navbar-toggle {
+    float: right;
+}
+.fire-navbar-brand {
+    float: left;
+}
+
+/*section*/
+
+.fire-section {
+    padding: 100px 0px 40px 0px;
+    overflow: hidden;
+}
+
+.fire-banner {
+    padding-top: 20px;
+    background: #343641;
+}
+
+.slider {
+    max-height: 450px;
+    background-color: #24272d;
+    background-image: url('../images/sneakpeek_banner.gif');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 11px;
+}
+
+.fire-download-button {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 15px 60px;
+    border: 1px solid #ff826d;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: #ff826d;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.fire-download-button:hover {
+    background: #ff826d;
+    color: white;
+}
+
+.fire-slider-border {
+    text-align: center;
+}
+
+.fire-line-height-30 {
+    line-height: 30px;
+}
+
+.our-target {
+    text-align: center;
+    background-color: #174f94;
+}
+
+.our-target p {
+    font-size: 16px;
+}
+
+.our-target a {
+    color: #9fd7ff;
+}
+
+.our-target .fire-download-button {
+    margin-top: 40px;
+    border-color: white;
+    color: white;
+}
+
+.our-target .fire-download-button:hover {
+    background: white;
+    color: black;
+}
+
+.features {
+    background-color: #1f66bd;
+    text-align: center;
+}
+
+.feature-block {
+    display: block;
+}
+
+.feature-box {
+    width: 49%;
+    height: 300px;
+    margin-top: 10px;
+    overflow: hidden;
+    float: left;
+    padding: 40px 8px 40px 34px;
+    box-sizing: border-box;
+    border: 1px solid #3484e7;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: left;
+}
+
+.feature-box img {
+    float: left;
+}
+
+.feature-box .text {
+    margin-left: 82px;
+}
+
+.margin {
+    width: 10px;
+    float: left;
+    height: 1px;
+}
+
+.gray {
+    color: gray;
+}
+
+.white {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*
+hack css
+*/
+
+.uk-navbar-nav > li > a {
+    color: white;
+}
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a {
+    -webkit-transition: color 300ms ease;
+    transition: color 300ms ease;
+    cursor: pointer;
+}
+.uk-navbar-nav > li:hover > a, .uk-navbar-nav > li > a:focus {
+    background: transparent;
+    color: #ffac4d;
+    outline: 0;
+}
+
+.uk-navbar-toggle {
+    color: #dbdbdb;
+}
+
+.uk-navbar-toggle:hover {
+    color: #FFF;
+}
+
+@media (min-width: 940px) {
+    .uk-container {
+        max-width: 940px;
+        padding: 0 35px;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+
+    .fire-section {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .feature-box {
+        width: 100%;
+        height: auto;
+    }
+}

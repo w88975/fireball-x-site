@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fireball</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/fireball引擎（32-32）.png">
+        <link rel="apple-touch-icon" href="images/fireball引擎（256-256）.png">
+        <link rel="stylesheet" href="css/uikit.min.css">
+        <link rel="stylesheet" href="css/fireball.css">
+        <!-- <link rel="stylesheet" href="css/docs.css"> -->
+        <link rel="stylesheet" href="vendor/highlight/highlight.css">
+        <script src="vendor/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="vendor/highlight/highlight.js"></script>
+    </head>
+    <body class="tm-background">
+        <nav class="tm-navbar uk-navbar uk-navbar-attached fire-navbar">
+            <div class="uk-container uk-container-center">
+                <div class="fire-nav-container">
+                    <a class="uk-navbar-brand uk-hidden-small" href="#">
+                        <img class="uk-margin uk-margin-remove" src="images/Fireball logo.png" width="150" title="Fireball" alt="Fireball">
+                    </a>
+
+                    <ul class="uk-navbar-nav uk-hidden-small fire-nav-ul" id="navbar">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">下载</a></li>
+                        <li><a href="#">文档</a></li>
+                        <li><a href="#">社区</a></li>
+                        <li><a href="#">博客</a></li>
+                        <li><a href="#">公司</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">关于我们</a></li>
+                    </ul>
+                </div>
+
+                <a href="" class="uk-navbar-toggle uk-visible-small fire-navbar-toggle" data-uk-offcanvas="{target:'#tm-offcanvas'}"></a>
+
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small fire-navbar-brand"><img src="images/Fireball logo.png" width="90" height="30" title="Fireball" alt="Fireball"></div>
+
+            </div>
+        </nav>
+
+        <div class="fire-section fire-banner">
+            <div class="fire-slider-border">
+                <img src="images/sneakpeek_banner.gif" class="slider">
+                <div class="uk-container uk-container-center" style="text-align:center;">
+                    <a class="fire-download-button trynow" href="#">马上参与测试</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fire-section">
+            <div class="uk-container uk-container-center">
+                <p class="fire-line-height-30 gray">
+                    Fireball是使用最前沿Web技术开发的跨平台Html5游戏引擎和编辑器。开发者可以使用Javascript和一系列的预编译语言如 TypeScript、CoffeeScript，配合编辑器提供的一整套工具链进行Html5游戏的高效率开发、预览、到移动端的部署和调试。Fireball编辑器使用纯Web页面打造，能够将无数功能独立的插件模块整合在同一个编辑器内，具有强大的功能扩展性。
+                </p>
+                <img src="images/fireball ui.png"/>
+            </div>
+        </div>
+
+        <div class="fire-section our-target">
+            <div class="uk-container uk-container-center">
+                <h1 class="white">我们的目标</h1>
+                <p>为游戏开发者打造纯Web的完整研发工具链，让高速发展的Web技术和成熟生态圈将你的研发效率加速到极致。</p>
+                <a href="#">查看Fireball路线图</a>
+                <p>
+                    <a class="fire-download-button trynow" href="#">马上试用</a>
+                </p>
+                <p>
+                    或加入我们的QQ技术交流群：246239860，或使用按钮加入Fireball交流群
+                    <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=9e6d5a8a9c23807afa0e9dcae2596574a8dd410e6aa105a7892d9cfb0559131c"><img border="0" src="images/group.png" async alt="Fireball交流群" title="Fireball交流群"></a>
+                </p>
+                <p>
+                    通过Github关注和提交反馈
+                </p>
+                <p><iframe async src="https://ghbtns.com/github-btn.html?user=fireball-x&amp;repo=fireball&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe></p>
+            </div>
+        </div>
+
+        <div class="fire-section features">
+            <h1 class="white">Fireball 产品特色</h1>
+            <div class="uk-container uk-container-center feature-block">
+                <div class="feature-box">
+                    <img src="images/editor.png">
+                    <div class="text">
+                        <h3 class="white"><b>集成式的跨平台编辑器</b></h3>
+                        <div>使用自主研发的 UI 框架，Fireball 拥有集成式的跨平台全功能编辑器，并且可以高效率的无限扩展和继续整合新功能。</div>
+                    </div>
+                </div>
+                <span class="margin"></span>
+                <div class="feature-box">
+                    <img src="images/file.png">
+                    <div class="text">
+                        <h3 class="white"><b>统一的资源管理方案</b></h3>
+                        <div>通过可扩展的资源接口，在同一个资源管理窗口整合用户在本地和云端的各种资源。不同插件模块可以通过同一套系统进行资源传递和通讯。</div>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <img src="images/system-icon.png">
+                    <div class="text">
+                        <h3 class="white"><b>无限可扩展的插件系统</b></h3>
+                        <div>Fireball的核心模块十分小巧，除此之外的其他所有功能都通过开源的插件系统来扩展和实现。只要具备 Web 开发知识，就可以轻松定制自己的功能插件！</div>
+                    </div>
+                </div>
+                <span class="margin"></span>
+                <div class="feature-box">
+                    <img src="images/mac-icon.png">
+                    <div class="text">
+                        <h3 class="white"><b>独立的“编辑器 + 引擎”架构</b></h3>
+                        <div>Fireball编辑器使用的游戏引擎是可置换的，使用 Fireball 可以搭配你最喜欢的游戏引擎和 API。最大程度的满足用户的定制需求。</div>
+                    </div>
+                </div>
+                <div class="feature-box">
+                    <img src="images/target-icon.png">
+                    <div class="text">
+                        <h3 class="white"><b>一键调试、预览、发布</b></h3>
+                        <div>由最前沿的 Web 构建工具支持，提供大量一键式的开发、调试和部署的流程。用户还可以通过定制插件来打造属于自己团队的工作流程。</div>
+                    </div>
+                </div>
+                <span class="margin"></span>
+                <div class="feature-box">
+                    <img src="images/web.png">
+                    <div class="text">
+                        <h3 class="white"><b>纯 Web 工具链</b></h3>
+                        <div>还在使用3、4年前的研发工具么？还为团队中使用不同平台和语言开发者的工具无法统一而影响效率么？纯 Web 技术打造的工具链能够统一所有团队成员的需求，还能够利用广袤的前端生态圈不断完善功能、优化体验和提高效率。</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tm-offcanvas" class="uk-offcanvas">
+
+            <div class="uk-offcanvas-bar">
+
+                <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{ multiple: true }">
+                    <li class="uk-nav-header">Fireball-x Game Engine</li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">下载</a></li>
+                    <li><a href="#">文档</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">公司</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li class="uk-nav-header">登录/注册</li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+
+            </div>
+
+    </body>
+</html>
