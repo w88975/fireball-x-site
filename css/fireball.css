@@ -44,16 +44,18 @@ a, a:hover {
 
 .slider {
     max-height: 450px;
-    background-color: #24272d;
-    background-image: url('../images/sneakpeek_banner.gif');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
+    transform: scale(0.2);
+    transition: transform 1s ease;
     font-size: 11px;
+}
+
+.slider-animate {
+    transform: scale(1);
 }
 
 .fire-download-button {
     display: inline-block;
+    transform: scale(1);
     margin-right: auto;
     margin-left: auto;
     padding: 15px 60px;
@@ -149,6 +151,17 @@ a, a:hover {
 
 .text-center {
     text-align: center;
+}
+
+.pre {
+    margin-left: -20%;
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+
+.scroll {
+    margin-left: 0px;
+    opacity: 1;
 }
 
 /*
