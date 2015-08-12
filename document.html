@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-gb" dir="ltr">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+        <link rel="shortcut icon" type="image/x-icon" href="images/fireball引擎（32-32）.png">
+        <link rel="apple-touch-icon" href="images/fireball引擎（256-256）.png">
+        <link rel="stylesheet" href="css/uikit.min.css">
+        <link rel="stylesheet" href="css/fireball.css">
+        <link rel="stylesheet" href="vendor/highlight/highlight.css">
+        <script src="vendor/jquery.js"></script>
+        <script src="js/uikit.min.js"></script>
+        <script src="vendor/highlight/highlight.js"></script>
+    </head>
+    <body class="tm-background">
+        <nav class="tm-navbar uk-navbar uk-navbar-attached fire-navbar">
+            <div class="uk-container uk-container-center">
+                <div class="fire-nav-container">
+                    <a class="uk-navbar-brand uk-hidden-small" href="#">
+                        <img class="uk-margin uk-margin-remove" src="images/Fireball logo.png" width="150" title="Fireball" alt="Fireball">
+                    </a>
+
+                    <ul class="uk-navbar-nav uk-hidden-small fire-nav-ul" id="navbar">
+                        <li><a href="#">首页</a></li>
+                        <li><a href="#">下载</a></li>
+                        <li><a href="#">文档</a></li>
+                        <li><a href="#">社区</a></li>
+                        <li><a href="#">博客</a></li>
+                        <li><a href="#">公司</a></li>
+                        <li><a href="#">English</a></li>
+                        <li><a href="#">关于我们</a></li>
+                    </ul>
+                </div>
+
+                <a href="" class="uk-navbar-toggle uk-visible-small fire-navbar-toggle" data-uk-offcanvas="{target:'#tm-offcanvas'}"></a>
+
+                <div class="uk-navbar-brand uk-navbar-center uk-visible-small fire-navbar-brand"><img src="images/Fireball logo.png" width="90" height="30" title="Fireball" alt="Fireball"></div>
+
+            </div>
+        </nav>
+
+        <div class="fire-section top-40">
+            <div class="uk-container uk-container-center">
+                <div class="uk-grid">
+                    <div class="uk-width-3-10">
+                        <div class="doc-box">
+                            <ul class="uk-nav">
+                                <li>新手上路</li>
+                                <li><a href="#">获取Fireball</a></li>
+                                <li><a href="#">新建项目</a></li>
+                                <li><a href="#">unity开发者上手</a></li>
+                                <li><a href="#">帮助</a></li>
+                                <li>用户手册</li>
+                                <li><a href="#">认识Editor</a></li>
+                                <li><a href="#">资源工作流程</a></li>
+                                <li>脚本编写</li>
+                                <li><a href="#">模块化</a></li>
+                                <li><a href="#">附录: 保留字</a></li>
+                            </ul>
+                        </div>
+                        <a class="doc-button">上一页</a>
+                        <a class="doc-button">下一页</a>
+                    </div>
+                    <div class="uk-width-7-10">
+                        <div class="doc-box">
+                            // NOTE: 这里采用markdown.js渲染 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fire-section footer">
+            <div class="uk-container uk-container-center text-center">
+                <div class="uk-grid">
+                    <div class="uk-width-medium-1-5">
+                        <img class="site-logo" src="images/Fireball logo.png" width="167" alt="Fireball Logo">
+                        <a class="social-button" href="https://github.com/fireball-x/fireball"><img src="images/git.png" alt="github"></a>
+                        <a class="social-button" href="http://shang.qq.com/wpa/qunwpa?idkey=9e6d5a8a9c23807afa0e9dcae2596574a8dd410e6aa105a7892d9cfb0559131c"><img src="images/QQ.png" alt="QQ"></a>
+                    </div>
+                    <div class="uk-width-medium-1-5">
+                        <h3 class="uk-panel-title">获取Fireball</h3>
+                        <ul class="uk-list uk-list-space">
+                            <li>官网下载</li>
+                            <li>通过Github下载</li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-medium-1-5">
+                        <h3 class="uk-panel-title">资源</h3>
+                        <ul class="uk-list uk-list-space">
+                            <li>新手教程</li>
+                            <li>手册文档</li>
+                            <li>API</li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-medium-1-5">
+                        <h3 class="uk-panel-title">支持与反馈</h3>
+                        <ul class="uk-list uk-list-space">
+                            <li>support@fireball-x.com</li>
+                            <li>开发者社区</li>
+                            <li>Github Issue</li>
+                            <li>QQ交流群:246239860</li>
+                        </ul>
+                    </div>
+                    <div class="uk-width-medium-1-5">
+                        <h3 class="uk-panel-title">关于我们</h3>
+                        <ul class="uk-list uk-list-space">
+                            <li>火盒科技</li>
+                            <li>Press</li>
+                        </ul>
+                    </div>
+                    <p class="copyright-introduction">
+                        ©2014厦门火盒网络科技有限公司&nbsp;&nbsp;All&nbsp;rights reserves
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div id="tm-offcanvas" class="uk-offcanvas">
+
+            <div class="uk-offcanvas-bar">
+
+                <ul class="uk-nav uk-nav-offcanvas uk-nav-parent-icon" data-uk-nav="{ multiple: true }">
+                    <li class="uk-nav-header">Fireball-x Game Engine</li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">下载</a></li>
+                    <li><a href="#">文档</a></li>
+                    <li><a href="#">社区</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">公司</a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li class="uk-nav-header">登录/注册</li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                </ul>
+
+            </div>
+    </body>
+</html>

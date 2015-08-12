@@ -1,11 +1,9 @@
 html {
     color: #fbfbfb;
 }
-
 body {
     font-size: 18px;
 }
-
 a, a:hover {
     background-color: transparent;
     text-decoration: none;
@@ -30,29 +28,73 @@ a, a:hover {
     float: left;
 }
 
+.doc-box {
+    padding-top: 36px;
+    padding-bottom: 32px;
+    padding-left: 18px;
+    border: 1px solid #e5e5e5;
+    background-color: white;
+    color: #383838;
+    font-size: 16px;
+}
+
+.doc-box a {
+    font-size: 14px;
+    color: gray;
+}
+
+.doc-box a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.doc-button {
+    display: block;
+    background-color: #404040;
+    box-shadow: none;
+    margin-top: 10px;
+    padding: 14px 50px 15px;
+    border-radius: 2px;
+    box-shadow: none;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.doc-button:hover {
+    background-color: #363434;
+    color: white;
+}
+
+.top-40 {
+    padding-top: 40px;
+}
+
 /*section*/
 
 .fire-section {
-    padding: 100px 0px 40px 0px;
+    padding: 40px 0px 40px 0px;
     overflow: hidden;
+    border-bottom: 1px solid #D0D0D0;
+    background-color: #f1f1f1;
 }
-
 .fire-banner {
     padding-top: 20px;
     background: #343641;
 }
-
 .slider {
     max-height: 450px;
     transform: scale(0.2);
     transition: transform 1s ease;
     font-size: 11px;
 }
-
 .slider-animate {
     transform: scale(1);
 }
-
 .fire-download-button {
     display: inline-block;
     transform: scale(1);
@@ -66,53 +108,42 @@ a, a:hover {
     font-size: 14px;
     text-decoration: none;
 }
-
 .fire-download-button:hover {
     background: #ff826d;
     color: white;
 }
-
 .fire-slider-border {
     text-align: center;
 }
-
 .fire-line-height-30 {
     line-height: 30px;
 }
-
 .our-target {
     text-align: center;
     background-color: #174f94;
 }
-
 .our-target p {
     font-size: 16px;
 }
-
 .our-target a {
     color: #9fd7ff;
 }
-
 .our-target .fire-download-button {
     margin-top: 40px;
     border-color: white;
     color: white;
 }
-
 .our-target .fire-download-button:hover {
     background: white;
     color: black;
 }
-
 .features {
     background-color: #1f66bd;
     text-align: center;
 }
-
 .feature-block {
     display: block;
 }
-
 .feature-box {
     width: 49%;
     height: 300px;
@@ -126,42 +157,157 @@ a, a:hover {
     line-height: 28px;
     text-align: left;
 }
-
 .feature-box img {
     float: left;
 }
-
 .feature-box .text {
     margin-left: 82px;
 }
-
 .margin {
     width: 10px;
     float: left;
     height: 1px;
 }
-
 .gray {
     color: gray;
 }
-
 .white {
     color: white;
 }
-
+.black {
+    color: black;
+}
 .text-center {
     text-align: center;
 }
-
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
 .pre {
     margin-left: -20%;
     opacity: 0;
     transition: all 1.5s ease;
 }
-
 .scroll {
     margin-left: 0px;
     opacity: 1;
+}
+.preview {
+    display: inline-block;
+    text-align: left;
+    border-top: 1px solid #CECECE;
+    padding: 40px 20px;
+}
+.p-text {
+    width: 40%;
+    padding: 4px;
+}
+.p-video {
+    width: 55%;
+}
+.game {
+    width: 74%;
+}
+.discrip {
+    width: 22%;
+}
+.subscibe-border {
+    background: #2c3036;
+    font-size: 16px;
+}
+.subscibe {
+    display: inline-block;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    width: 15%;
+    height: 52px;
+    text-align: center;
+    background-color: #ef4b34;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.subscibe:hover {
+    background: rgb(255, 154, 154);
+}
+.email-input {
+    width: 80%;
+    height: 48px;
+    padding-left: 4%;
+    font-size: 18px;
+    color: white;
+    background: transparent;
+    border: 1px solid rgba(82, 168, 236, 0.8);
+    border-left: none;
+    outline: 0;
+}
+.regbox {
+    height: 50px;
+    line-height: 50px;
+}
+.register {
+    display: inline-block;
+    padding: 0px 40px;
+    border-radius: 2px;
+    background-color: #ef4b34;
+    box-shadow: rgba(13, 12, 12, 0.49) 0px 1px 2px 0px;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+.register:hover {
+    background: rgb(224, 99, 88);
+}
+.footer {
+    background: rgb(36, 39, 45);
+    margin-top: -1px;
+}
+.social-button {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    display: inline-block;
+    margin-left: 0px;
+    border-radius: 15px;
+    background-color: #6e6e6e;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    color: #262626;
+    text-align: center;
+}
+
+.social-button:hover {
+    background-color: white;
+}
+
+.site-logo {
+    margin-bottom: 20px;
+}
+.footer .uk-panel-title {
+    padding-bottom: 20px;
+}
+
+.footer .uk-width-medium-1-5 {
+    font-size: 14px;
+}
+
+.copyright-introduction {
+    padding-top: 56px;
+    color: #6e6e6e;
+    font-size: 14px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*
@@ -181,33 +327,55 @@ hack css
     color: #ffac4d;
     outline: 0;
 }
-
 .uk-navbar-toggle {
     color: #dbdbdb;
 }
-
 .uk-navbar-toggle:hover {
     color: #FFF;
 }
-
 @media (min-width: 940px) {
     .uk-container {
         max-width: 940px;
         padding: 0 35px;
     }
 }
-
 @media (max-width: 767px) {
     body {
         font-size: 14px;
     }
-
     .fire-section {
         padding: 40px 0px 40px 0px;
     }
-
     .feature-box {
         width: 100%;
         height: auto;
+    }
+    .p-text, .p-video {
+        width: 100%;
+    }
+    .game {
+        width: 100%;
+    }
+    .discrip {
+        width: 100%;
+    }
+    .regbox {
+        height: 150px;
+    }
+
+    .uk-grid {
+        text-align: center;
+    }
+
+    .site-logo {
+        width: 100%;
+    }
+
+    .footer .uk-panel-title {
+        padding-bottom: 0px;
+    }
+
+    .uk-width-medium-1-5 {
+        padding-bottom: 20px;
     }
 }
