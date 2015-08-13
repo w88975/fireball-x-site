@@ -8,10 +8,12 @@
         <link rel="shortcut icon" type="image/x-icon" href="images/fireball引擎（32-32）.png">
         <link rel="apple-touch-icon" href="images/fireball引擎（256-256）.png">
         <link rel="stylesheet" href="css/uikit.min.css">
+        <link rel="stylesheet" href="css/uikit.gradient.css">
         <link rel="stylesheet" href="css/fireball.css">
         <link rel="stylesheet" href="vendor/highlight/highlight.css">
         <script src="vendor/jquery.js"></script>
         <script src="js/uikit.min.js"></script>
+        <script src="js/components/form-select.js"></script>
         <script src="vendor/highlight/highlight.js"></script>
     </head>
     <body class="tm-background">
@@ -43,30 +45,58 @@
 
         <div class="fire-section top-40">
             <div class="uk-container uk-container-center">
-                <div class="uk-grid">
-                    <div class="uk-width-3-10">
-                        <div class="doc-box doc-nvbar">
-                            <ul class="uk-nav">
-                                <li>新手上路</li>
-                                <li><a href="#">获取Fireball</a></li>
-                                <li><a href="#">新建项目</a></li>
-                                <li><a href="#">unity开发者上手</a></li>
-                                <li><a href="#">帮助</a></li>
-                                <li>用户手册</li>
-                                <li><a href="#">认识Editor</a></li>
-                                <li><a href="#">资源工作流程</a></li>
-                                <li>脚本编写</li>
-                                <li><a href="#">模块化</a></li>
-                                <li><a href="#">附录: 保留字</a></li>
-                            </ul>
+                <div class="doc-box blog-head">
+                    <div class="blog-nav">
+                        <a href="blog.html" class="catalog">返回blog</a>/<a class="catalog" href="#">网页设计</a>
+                        <div class="paging">
+                            <a class="page-button">上一篇</a>
+                            <a class="page-button">下一篇</a>
                         </div>
-                        <a class="doc-button">上一页</a>
-                        <a class="doc-button">下一页</a>
                     </div>
-                    <div class="uk-width-7-10">
-                        <div class="doc-box">
-                            // NOTE: 这里采用markdown.js渲染
+                </div>
+
+                <div class="doc-box blog-title">
+                    <div class="uk-container uk-container-center">
+                        <div class="uk-width-medium-1-10 left">
+                            <img src="images/open-blog.png">
                         </div>
+                        <div class="uk-width-medium-9-10 left">
+                            <h2 class="white"><b>先人一步！带你了解制霸2015年的网页设计趋势</b></h2>
+                            <div class="info font-14 white">
+                                <span class="date-user">2015/02/04   By Nantas</span>
+                            <a href="blog.html" class="catalog">网页设计</a>/<a class="catalog" href="#">视觉设计</a>/<a class="catalog" href="#">交互设计</a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="doc-box blog-detail">
+                    <div class="uk-container uk-container-center">
+                        <p>这是一个永不终结的话题。充满活力而多样化的网页设计，在前进的道路上不断变化，自然也影响着趋势的调整和变迁。最有意思的是，网页作为产品的一种输出方式，连接着产品和用户，以工具、服务和渠道的形式存在着。也正因为网页这种独特的属性，网页设计的变迁也非常直观地体现出需求和趋势的变化。
+仔细观察并分析去年流行的酷站之后，你也可以清晰地总结出2015年可能会流行起来的设计趋势。诸如响应式设计、单页设计和视差滚动这样的大趋势，我们已经在年底的总结文章《我的征程是未来！带你展望2015年最重要的网页设计趋势》中探讨过。不过这样的大的设计趋势之下，还隐藏着许多令人获益匪浅的设计细节上的改变，也正式这些设计细节促使诸多酷站从海量的网站中脱颖而出。
+接下来我们一起来看看这些足以制霸2015年的设计趋势吧，每个设计趋势后的案例会向你证明它们并非猜测和假设。掌握趋势，才能先人一步！</p>
+                        <div class="blog-pic"></div>
+                        <p><h3><b>We're pleased to announce the release of Meteor 1.0.3.1 today.</b></h3>
+                        <p>
+                            这是一个永不终结的话题。充满活力而多样化的网页设计，在前进的道路上不断变化，自然也影响着趋势的调整和变迁。最有意思的是，网页作为产品的一种输出方式，连接着产品和用户，以工具、服务和渠道的形式存在着。也正因为网页这种独特的属性，网页设计的变迁也非常直观地体现出需求和趋势的变化。
+                            仔细观察并分析去年流行的酷站之后，你也可以清晰地总结出2015年可能会流行起来的设计趋势。诸如响应式设计、单页设计和视差滚动这样的大趋势，我们已经在年底的总结文章《我的征程是未来！带你展望2015年最重要的网页设计趋势》中探讨过。不过这样的大的设计趋势之下，还隐藏着许多令人获益匪浅的设计细节上的改变，也正式这些设计细节促使诸多酷站从海量的网站中脱颖而出。
+                            接下来我们一起来看看这些足以制霸2015年的设计趋势吧，每个设计趋势后的案例会向你证明它们并非猜测和假设。掌握趋势，才能先人一步！
+                        </p>
+                    </div>
+                </div>
+
+                <div class="doc-box blog-head">
+                    <div class="blog-nav">
+                        <div class="paging">
+                            <a class="page-button">上一篇</a>
+                            <a class="page-button">下一篇</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="doc-box blog-comment">
+                    <div class="uk-container uk-container-center">
+                        <textarea placeholder="Example Text" class="blog-textarea"></textarea>
+                        <a class="fire-button comment-button right" type="submit" value="评论" data-wait="Please wait...">评论</a>
                     </div>
                 </div>
             </div>
